@@ -23,10 +23,11 @@ class Aula05{
         //Console.WriteLine(num);  
 
         //op. lógicos: and e or:
+        // & = AND -> retorna true se todas forem true.
+        // | = OR -> retorna false se todas forem falsas.
+        bool res = (5 > 3)&(10 > 5);
 
-        bool res = (5 > 3);
-
-        Console.WriteLine(res);
+        Console.WriteLine(res); 
 
     }
 }
