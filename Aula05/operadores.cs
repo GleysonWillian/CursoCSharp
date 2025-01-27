@@ -14,14 +14,10 @@ class Aula05{
         //operadores relacionais: >, <, <=, >=, !=.
 
         //incremento e decremento:
-        int num = 0;
+        int num = 10;
 
-        while (num < 20){
-            num ++;
-            Console.WriteLine($"Valor de num: {num}");
-        }
+        num = num + 1; // -> num+=1;
 
-        Console.WriteLine("Fim do programa!");
-
+        Console.WriteLine(num);      
     }
 }
