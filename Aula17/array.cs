@@ -3,8 +3,6 @@ using System;
 class Aula17{
 
     static void Main(){
-        int 
-
-
+        Console.WriteLine();
     }
 }
