@@ -1,6 +1,6 @@
 using System;
 
-class Aula12{
+class Aula14{
 
     static void Main(){
 
@@ -23,12 +23,22 @@ class Aula12{
 
         res = n1 + n2 + n3 + n4;
 
-        if (res < 40){
-            resultado = "Reprovado";
-        }else if (res < 60){
-            resultado = "Recuperação";
+        if (res >= 60){
+            if(res >= 90){
+                if(res >= 98){
+                    resultado = "Parabéns! Você está aprovado e ganhou um voucher no valor de R$ 300,00 reias";
+                }else{
+                    resultado = "Parabéns! Você está aprovado e ganhou um voucher no valor de R$ 150,00 reias";
+                } 
+            }else{
+                resultado = "Parabéns! Você está aprovado e ganhou um voucher no valor de R$75,00 reais";
+            }
         }else{
-            resultado = "Aprovado";
+            if(res >= 40){
+                resultado = "Recuperação";
+            }else{
+                resultado = "Reprovado";
+            }
         }
             Console.WriteLine("Nota: {0}.\nResultado: {1}!", res, resultado);
     }
