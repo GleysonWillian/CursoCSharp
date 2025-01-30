@@ -1,8 +1,10 @@
 using System;
 
-class Aula08{
+class Aula08
+{
 
-    static void Main(){
+    static void Main()
+    {
         int v1, v2, soma;
         string nome;
 
@@ -12,7 +14,7 @@ class Aula08{
         v2 = int.Parse(Console.ReadLine());
         soma = v1 + v2;
 
-        Console.WriteLine("A soma de {0} e {1} é igual a {2}.",v1,v2,soma);
+        Console.WriteLine("A soma de {0} e {1} é igual a {2}.", v1, v2, soma);
         Console.WriteriteLine("Fim do programa!");
     }
 }

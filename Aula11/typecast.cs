@@ -1,8 +1,10 @@
 using System;
 
-class Aula11{
+class Aula11
+{
 
-    static void Main(){
+    static void Main()
+    {
 
         //operações taypast:
 
@@ -13,11 +15,11 @@ class Aula11{
 
         //convertendo int em short:
         int vInt = 10;
-        short vShort = (short)vInt;  
+        short vShort = (short)vInt;
 
         Console.WriteLine(vShort);
 
     }
 }
 
-        // Conversão de um tipo para outro, quando não há uma conversão implícita//
+// Conversão de um tipo para outro, quando não há uma conversão implícita//

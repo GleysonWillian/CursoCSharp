@@ -1,8 +1,10 @@
 using System;
 
-class Aula08{
+class Aula08
+{
 
-    static void Main(){
+    static void Main()
+    {
         int v1, v2, soma;
         string nome;
 

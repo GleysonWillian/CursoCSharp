@@ -1,8 +1,10 @@
 using System;
 
-class Aula07{
+class Aula07
+{
 
-    static void Main(){
+    static void Main()
+    {
 
         const string canal = "Gleyson Dev";
         const double pi = 3.1514;

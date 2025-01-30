@@ -1,12 +1,14 @@
 using System;
-class Aula15{
-    static void Main(){
-        
+class Aula15
+{
+    static void Main()
+    {
+
         int tempo = 0;
         char escolha;
 
-        // sempre que quiser apontar para um ponto específico, crie um label:
-        inicio:
+    // sempre que quiser apontar para um ponto específico, crie um label:
+    inicio:
 
         Console.Clear();
 
@@ -15,7 +17,8 @@ class Aula15{
 
         escolha = char.Parse(Console.ReadLine());
 
-        switch(escolha){
+        switch (escolha)
+        {
             case 'a':
             case 'A':
                 tempo = 50;
@@ -33,17 +36,23 @@ class Aula15{
                 break;
         }
 
-        if(tempo < 0){
+        if (tempo < 0)
+        {
             Console.WriteLine("Transporte indisponível!");
-        }else{
+        }
+        else
+        {
             Console.WriteLine("Para o transporte escolhido o tempo é: {0} minutos.", tempo);
         }
 
         Console.Write("\nCalcular outro transporte? [s/n] ");
         escolha = char.Parse(Console.ReadLine());
-        if(escolha == 's' || escolha == 'S'){
+        if (escolha == 's' || escolha == 'S')
+        {
             goto inicio;
-        }else{
+        }
+        else
+        {
             Console.Clear();
             Console.WriteLine("FIm do programa!");
         }

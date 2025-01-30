@@ -1,8 +1,10 @@
 using System;
 
-class Aula05{
+class Aula05
+{
 
-    static void Main(){
+    static void Main()
+    {
 
         // categorias:
 
@@ -25,9 +27,9 @@ class Aula05{
         //op. lógicos: and e or:
         // & = AND -> retorna true se todas forem true.
         // | = OR -> retorna false se todas forem falsas.
-        bool res = (5 > 3)&(10 > 5);
+        bool res = (5 > 3) & (10 > 5);
 
-        Console.WriteLine(res); 
+        Console.WriteLine(res);
 
     }
 }

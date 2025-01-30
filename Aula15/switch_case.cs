@@ -1,6 +1,8 @@
 using System;
-class Aula15{
-    static void Main(){
+class Aula15
+{
+    static void Main()
+    {
         int tempo = 0;
         char escolha;
 
@@ -9,7 +11,8 @@ class Aula15{
 
         escolha = char.Parse(Console.ReadLine());
 
-        switch(escolha){
+        switch (escolha)
+        {
             case 'a':
             case 'A':
                 tempo = 50;
@@ -27,9 +30,12 @@ class Aula15{
                 break;
         }
 
-        if(tempo < 0){
+        if (tempo < 0)
+        {
             Console.WriteLine("Transporte indisponível!");
-        }else{
+        }
+        else
+        {
             Console.WriteLine("Para o transporte escolhido o tempo é: {0} minutos.", tempo);
         }
     }
